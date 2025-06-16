@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
+$1
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+        const aviso = document.getElementById("aviso-importante");
+        if (aviso) aviso.style.display = "none";
+      }, 8000); // 8 segundos
+    });
+  </script>
+<meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Reserva de Granada IV</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -65,7 +73,10 @@
     }
   </style>
 </head>
-<body>
+$1
+  <div id="aviso-importante" style="background-color: #ffc107; color: #000; text-align: center; padding: 0.5rem; font-weight: bold;">
+    ⚠️ Aviso importante: Asamblea general este sábado 22 de junio a las 10:00 a.m. en el salón comunal. ¡Su participación es fundamental!
+  </div>
   <header>
     <h1>Conjunto Residencial Reserva de Granada IV</h1>
     <p>Calle 78B #120-87 | NIT: 901.437.106-7</p>
@@ -88,6 +99,7 @@
       <img src="https://source.unsplash.com/400x250/?condominium,urban" alt="Foto conjunto 3" style="width: 300px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
     </div>
     <hr style="margin: 2rem 0;">
+    
 
     <h2>Información de la Administración</h2>
     <p><strong>Administradora:</strong> Lilibeth Valderrama Rodriguez</p>
@@ -120,7 +132,7 @@
   <section id="pagos">
     <h2>Pagos</h2>
     <p><img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Grupo_Aval_logo.png" alt="AvalPay Logo" class="icon">Realice sus pagos de administración a través del siguiente enlace seguro:</p>
-    <p><strong>⚠ Importante:</strong> Verifique que el logo de AvalPay coincida con el del conjunto. No se solicitarán usuarios ni contraseñas bancarias. Usted será redirigido a la plataforma oficial Avalpay en servicio a pagar identificado como "Conjunto Residencial Reserva de G" que corresponde al conjunto. El conjunto no se hace responsable por pagos realizados fuera de canales autorizados.</p>
+    <p><strong>⚠ Importante:</strong> Verifique que el logo de AvalPay coincida con el del conjunto. No se solicitarán usuarios ni contraseñas bancarias. Usted será redirigido a la plataforma oficial identificada como "Reserva de Granada IV". El conjunto no se hace responsable por pagos realizados fuera de canales autorizados.</p>
     <a class="button-link" href="https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/pagos-aval/resultado-busqueda/realizar-pago?idConv=00015836&origin=buscar" target="_blank">Ir a Pagos</a>
   </section>
 
