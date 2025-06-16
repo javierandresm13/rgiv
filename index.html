@@ -1,34 +1,69 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Reserva de Granada IV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header, footer { background-color: #003366; color: white; padding: 1rem; text-align: center; }
-    nav { background-color: #005599; display: flex; justify-content: center; padding: 0.5rem 0; }
-    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    main { padding: 2rem; max-width: 800px; margin: auto; }
-    section { margin-bottom: 2rem; }
-    h1, h2 { color: #003366; }
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #00695c;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #004d40;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    footer {
+      background-color: #00695c;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
     .button-link {
       display: inline-block;
+      margin: 0.5rem 0;
       padding: 0.5rem 1rem;
-      background-color: #005599;
+      background-color: #00897b;
       color: white;
       text-decoration: none;
       border-radius: 5px;
-      margin-top: 1rem;
     }
-    .button-link:hover { background-color: #003366; }
+    .button-link:hover {
+      background-color: #00695c;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Conjunto Residencial Reserva de Granada IV</h1>
+    <p>Calle 78B #120-87 | NIT: [Número aquí]</p>
   </header>
   <nav>
     <a href="#inicio">Inicio</a>
@@ -37,43 +72,35 @@
     <a href="#pagos">Pagos</a>
     <a href="#ubicacion">Ubicación</a>
   </nav>
-  <main>
-    <section id="inicio">
-      <h2>Información General</h2>
-      <p><strong>Dirección:</strong> Calle 78B #120-87, Bogotá</p>
-      <p><strong>NIT:</strong> 	900089549 </p>
-      <p><strong>Administración:</strong> Información de contacto de la administración (email, teléfono, horario de atención)</p>
-    </section>
-
-    <section id="documentos">
-      <h2>Documentos de la Copropiedad</h2>
-      <p>Aquí puedes consultar documentos relevantes como el manual de convivencia, escrituras y otros.</p>
-      <ul>
-        <li><a href="docs/manual_convivencia.pdf" target="_blank">Manual de Convivencia</a></li>
-        <li><a href="docs/escritura.pdf" target="_blank">Escritura del Conjunto</a></li>
-      </ul>
-    </section>
-
-    <section id="pqrs">
-      <h2>PQRS</h2>
-      <p>Para enviar Peticiones, Quejas, Reclamos o Sugerencias, por favor usa el siguiente formulario:</p>
-      <a href="https://docs.google.com/forms/d/e/FORM_ID/viewform" class="button-link" target="_blank">Formulario PQRS</a>
-    </section>
-
-    <section id="pagos">
-      <h2>Pagos</h2>
-      <p>Accede a la plataforma de pagos en línea del conjunto:</p>
-      <a href="https://www.plataformapagos.com/reserva-granada-iv" class="button-link" target="_blank">Ir a plataforma de pagos</a>
-    </section>
-
-    <section id="ubicacion">
-      <h2>Ubicación</h2>
-      <p>Encuéntranos en Waze:</p>
-      <a href="https://waze.com/ul?ll=4.7110,-74.0721&navigate=yes" class="button-link" target="_blank">Abrir en Waze</a>
-    </section>
-  </main>
+  <section id="inicio">
+    <h2>Información de la Administración</h2>
+    <p>[Aquí va la información de contacto, horarios de atención, correo y teléfono del administrador]</p>
+  </section>
+  <section id="documentos">
+    <h2>Documentos de la Copropiedad</h2>
+    <ul>
+      <li><a class="button-link" href="#">Manual de Convivencia</a></li>
+      <li><a class="button-link" href="#">Reglamento de Propiedad Horizontal</a></li>
+      <li><a class="button-link" href="#">Escrituras</a></li>
+    </ul>
+  </section>
+  <section id="pqrs">
+    <h2>PQRS</h2>
+    <p>Para registrar una petición, queja, reclamo o sugerencia, use el siguiente formulario:</p>
+    <a class="button-link" href="https://forms.gle/tu-formulario" target="_blank">Ir al Formulario de PQRS</a>
+  </section>
+  <section id="pagos">
+    <h2>Pagos</h2>
+    <p>Realice sus pagos ingresando a la plataforma en el siguiente enlace:</p>
+    <a class="button-link" href="https://www.paginadepagos.com/reservadegranadaiv" target="_blank">Ir a Pagos</a>
+  </section>
+  <section id="ubicacion">
+    <h2>Ubicación</h2>
+    <p>Encuéntrenos fácilmente en Waze:</p>
+    <a class="button-link" href="https://waze.com/ul?ll=4.748708,-74.083652" target="_blank">Abrir en Waze</a>
+  </section>
   <footer>
-    <p>&copy; 2025 Reserva de Granada IV. Todos los derechos reservados.</p>
+    <p>&copy; 2025 Conjunto Residencial Reserva de Granada IV</p>
   </footer>
 </body>
 </html>
