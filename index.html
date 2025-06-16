@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-$1
+<head>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       setTimeout(function () {
@@ -9,7 +9,7 @@ $1
       }, 8000); // 8 segundos
     });
   </script>
-<meta charset="UTF-8" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Reserva de Granada IV</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -26,6 +26,14 @@ $1
       color: white;
       padding: 1rem;
       text-align: center;
+      position: relative;
+    }
+    .logo {
+      width: 313px;
+      height: 294px;
+      object-fit: contain;
+      display: block;
+      margin: auto;
     }
     nav {
       background-color: #004d40;
@@ -73,11 +81,12 @@ $1
     }
   </style>
 </head>
-$1
+<body>
   <div id="aviso-importante" style="background-color: #ffc107; color: #000; text-align: center; padding: 0.5rem; font-weight: bold;">
-    ⚠️ Aviso importante: Esta página esta en reconstrucción y se esta actualizando constantemente, gracias por su comprensión. ¡Su participación es fundamental!
+    ⚠️ Aviso importante: Esta página está en reconstrucción y se está actualizando constantemente. ¡Gracias por su comprensión!
   </div>
   <header>
+    <img src="https://drive.google.com/uc?id=TUIDDEIMAGEN" alt="Logo Conjunto" class="logo">
     <h1>Conjunto Residencial Reserva de Granada IV</h1>
     <p>Calle 78B #120-87 | NIT: 901.437.106-7</p>
   </header>
@@ -89,61 +98,9 @@ $1
     <a href="#ubicacion">Ubicación</a>
   </nav>
   <section id="inicio">
-    <div style="text-align: center; margin-bottom: 2rem;">
-      <h2 style="margin-bottom: 0.5rem;">Bienvenido a la comunidad</h2>
-      <p>Conozca más sobre nuestro entorno y la vida en Reserva de Granada IV</p>
-    </div>
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
-      <img src="https://drive.google.com/file/d/1j8Q2ADvJpCtsJGk1QBrW3dTYXi6WPaQA/view?usp=sharing" alt="Foto conjunto 1" style="width: 300px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-      <img src="https://drive.google.com/file/d/1j8Q2ADvJpCtsJGk1QBrW3dTYXi6WPaQA/view?usp=sharing" alt="Foto conjunto 2" style="width: 300px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-      <img src="https://source.unsplash.com/400x250/?condominium,urban" alt="Foto conjunto 3" style="width: 300px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-    </div>
-    <hr style="margin: 2rem 0;">
-    
-
-    <h2>Información de la Administración</h2>
-    <p><strong>Administradora:</strong> Lilibeth Valderrama Rodriguez</p>
-    <p><strong>Horarios de Atención:</strong></p>
-    <ul>
-      <li>Lunes y Miércoles: 7:00 PM a 12:00 PM</li>
-      <li>Martes y Jueves: 10:30 AM a 2:30 PM</li>
-      <li>Viernes: 1:00 PM a 2:30 PM</li>
-    </ul>
-    <p><strong>Teléfono:</strong> 324 154 7548 <br> (Solo se atienden llamadas en horario de atención)</p>
-    <p><strong>Email:</strong> creservadegranada4.admon@gmail.com</p>
-    <p><strong>Página web:</strong> www.reservadegranadaiv.com</p>
+    <h2>Bienvenido a la comunidad</h2>
+    <p>Conozca más sobre nuestro entorno y la vida en Reserva de Granada IV</p>
   </section>
-
-  <section id="documentos">
-    <h2>Documentos de la Copropiedad</h2>
-    <ul>
-      <li><a class="button-link" href="#">Manual de Convivencia</a></li>
-      <li><a class="button-link" href="#">Reglamento de Propiedad Horizontal</a></li>
-      <li><a class="button-link" href="#">Escrituras</a></li>
-    </ul>
-  </section>
-
-  <section id="pqrs">
-    <h2>PQRS</h2>
-    <p><img src="https://cdn-icons-png.flaticon.com/512/10019/10019363.png" alt="icono PQRS" class="icon"> Para registrar una Petición, Queja, Reclamo o Sugerencia (PQRS), haga clic en el siguiente botón. Por favor use un lenguaje claro, respetuoso y proporcione los detalles necesarios para dar una respuesta efectiva. La administración dará respuesta dentro de los plazos legales establecidos.</p>
-    <a class="button-link" href="https://forms.gle/Ndg1tYBuehgRouN48" target="_blank">Ir al Formulario de PQRS</a>
-  </section>
-
-  <section id="pagos">
-    <h2>Pagos</h2>
-    <p><img src="https://drive.google.com/file/d/1YIIVQ90HELm02lExbt2OuqoE4S4OHhI2/view?usp=drive_link" alt="AvalPay Logo" class="icon">Realice sus pagos de administración a través del siguiente enlace seguro:</p>
-    <p><strong>⚠ Importante:</strong> Verifique que el logo de AvalPay coincida con el del conjunto. No se solicitarán usuarios ni contraseñas bancarias. Usted será redirigido a la plataforma oficial identificada como "Reserva de Granada IV". El conjunto no se hace responsable por pagos realizados fuera de canales autorizados.</p>
-    <a class="button-link" href="https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/pagos-aval/resultado-busqueda/realizar-pago?idConv=00015836&origin=buscar" target="_blank">Ir a Pagos</a>
-  </section>
-
-  <section id="ubicacion">
-    <h2>Ubicación</h2>
-    <p><img src="https://drive.google.com/file/d/1DejKKTUtMjWYULhg4IvFQkvizbZ2Rug0/view?usp=drive_link" alt="Waze Logo" class="icon">Encuéntrenos fácilmente con Waze:</p>
-    <a class="button-link" href="https://ul.waze.com/ul?venue_id=187367471.1873478104.14846912&overview=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank">Abrir en Waze</a>
-    <p><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Google_Maps_icon_%282020%29.svg" alt="Google Maps Logo" class="icon">O ubíquenos en Google Maps:</p>
-    <a class="button-link" href="https://maps.app.goo.gl/pmS9DYvZGJi3hSRp6" target="_blank">Abrir en Google Maps</a>
-  </section>
-
   <footer>
     <p>&copy; 2025 Conjunto Residencial Reserva de Granada IV</p>
   </footer>
